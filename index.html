@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+	h1 {
+		text-align: center;
+		font-family: 'Trebuchet MS', sans-serif;
+		font-size: 1.75em;
+	}
+	.row {
+		width: 100%;
+	}
+	* {
+		box-sizing: border-box;
+		margin:0px;
+		padding:0px;
+	}
+	.container1, .container2, .container3 {
+		background-color: lightgray;
+		border: solid black 1px;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+		height: 150px;
+		width: auto;
+		overflow: auto;
+		position: relative;
+		padding: 2px;
+		margin: 5px;
+		float: left;
+	}
+	div #chicken {
+		background-color: lightpink;
+		border-bottom: solid black 1px;
+		border-left: solid black 1px;
+		float: right;
+		font-size: 1.25em;
+		
+	}
+	div #pork {
+		background-color: lightblue;
+		border-bottom: solid black 1px;
+		border-left: solid black 1px;
+		float: right;
+		font-size: 1.25em;
+		
+		}
+	div #beef {
+		background-color: lightcyan;
+		border-bottom: solid black 1px;
+		border-left: solid black 1px;
+		float: right;
+		font-size: 1.25em;
+		
+	}
+	p {
+		clear: right;
+		font-size: 1em;		
+		position:relative;
+	}
 
+	
+	@media (min-width: 992px) {
+  		.container1 {
+   	 		width: 32.3%;
+   	 		
+ 		 }
+ 		.container2 {
+ 	  		width: 32.3%;
+ 	  		
+ 	 	}
+ 		.container3 {
+ 	 		width: 32.3%;
+ 	 		
+ 	 	}
+	}
+
+
+	@media (min-width: 768px) and (max-width: 991px) {
+  		.container1 {
+   	 		width: 48.5%;
+   	 		
+	  	}
+ 	 	.container2 {
+ 	 		width: 48.5%;
+ 	 		
+  	 	}
+ 	 	.container3 {
+ 	 		width: 98%
+ 	 		
+ 	 	}
+ 	 }
+
+ 	 @media (min-width: 0px) and (max-width: 767px) {
+ 	 	.container1, .container2, .container3 {
+ 	 		width: 100%;
+ 	 		
+ 	 	}
+ 	 }
+	
+</style>
+</head>
+<body> 
+	<h1> The Menu </h1>
+	<div class="row">
+			<section class="container1"> 
+				<div id="chicken"> Chicken.</div>
+				 	<section><p> Chicken is often a go-to protein, mostly because it's easy to cook and is considered a lean protein. Though chicken has a reputation for being bland, that couldn't be further from the proof. Whether you prefer juicy chicken thighs or tender chicken breasts, there are so many easy ways to dress the meat up and turn it into a winning meal. The beef is seasoned with dried herbs and simmered with canned tomatoes until the flavor meld to perfection. Served over cooked spaghetti it’s the perfect no-fuss meal from the pantry—that everyone will love </p></section>
+			</section>
+			<section class="container2">
+				<div id="beef"> Beef </div>
+				<div> <p>Ground beef is one of those ingredients that we almost always have on hand. It adds a great meaty flavor to whatever you’re cooking, for a fraction of the price of steak. And, because the meat is ground up, you can easily stretch it (try adding beans, grains or chopped mushrooms) and feed more people. Best of all, ground beef is a key ingredient in so many of our favorite comfort foods and family-friendly dinners—so it’s one ingredient that we’ve always got a use for. Meatballs, stuffed peppers, sloppy Joes and more: a delicious meal is always within reach when you’ve got ground beef on hand. Take this simple, hearty meat sauce, for example. The beef is seasoned with dried herbs and simmered with canned tomatoes until the flavor meld to perfection. Served over cooked spaghetti it’s the perfect no-fuss meal from the pantry—that everyone will love. </p></div>
+			</section>
+			<section class="container3">
+				<div id="pork"> Pork. </div>
+				<div> <p>Like all meat, pork is mostly made up of protein.  The protein content of lean, cooked pork is around 26% by fresh weight.  When dry, the protein content of lean pork can be as high as 89% — making it one of the richest dietary sources of protein (1Trusted Source).  It contains all nine essential amino acids necessary for your body’s growth and maintenance. In fact, meat is one of the most complete dietary sources of protein.  For this reason, eating pork — or other types of meat — may be particularly beneficial for bodybuilders, recovering athletes, people post-surgery, or others who need to build up or repair muscles. </p></div>
+			</section>
+	</div>
+</body>
+</html>
